@@ -488,14 +488,14 @@ footer * {
 /* -- IMAGES -- */
 
 .home {
-  background: url('img/header.png');
+  background: url('../img/header.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .emissary {
-  background: url('img/emissary.png');
+  background: url('../img/emissary.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -504,7 +504,7 @@ footer * {
 .section_quote {
   display: flex;
   align-items: center;
-  background: url('img/banner-image.png');
+  background: url('../img/banner-image.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -512,7 +512,7 @@ footer * {
 }
 
 .logo-white {
-  background: url('img/slingshot_white.svg');
+  background: url('../img/slingshot_white.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -522,7 +522,7 @@ footer * {
 }
 
 .logo-blue {
-  background: url('img/slingshot_blue.svg');
+  background: url('../img/slingshot_blue.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -542,7 +542,7 @@ footer * {
 }
 
 .success-img-one {
-  background: url('img/img-alison.png');
+  background: url('../img/img-alison.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -552,7 +552,7 @@ footer * {
 }
 
 .success-img-two {
-  background: url('img/img-anthony.png');
+  background: url('../img/img-anthony.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -562,7 +562,7 @@ footer * {
 }
 
 .success-img-three {
-  background: url('img/img-alessandra.png');
+  background: url('../img/img-alessandra.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -572,7 +572,7 @@ footer * {
 }
 
 .emissary-aidan {
-  background: url('img/emissary-aidan.png');
+  background: url('../img/emissary-aidan.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -582,7 +582,7 @@ footer * {
 }
 
 .emissary-matt {
-  background: url('img/emissary-matt.png');
+  background: url('../img/emissary-matt.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -592,7 +592,7 @@ footer * {
 }
 
 .emissary-mat {
-  background: url('img/emissary-mat.png');
+  background: url('../img/emissary-mat.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -602,7 +602,7 @@ footer * {
 }
 
 .emissary-kristin {
-  background: url('img/emissary-kristin.png');
+  background: url('../img/emissary-kristin.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -612,7 +612,7 @@ footer * {
 }
 
 .emissary-parker {
-  background: url('img/emissary-parker.png');
+  background: url('../img/emissary-parker.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -626,6 +626,20 @@ footer * {
   overflow: hidden;
 }
 
+.center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 170px;
+  height: 140px;
+  background-color: #ccc;
+  border-radius: 3px;
+  text-align: center;
+}
 /* -- MEDIA QUERIES -- */
 
 @media only screen and (min-width: 464px) {
