@@ -542,8 +542,51 @@ footer * {
   height: 38px;
 }
 
+.team-member {
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  position: relative;
+  margin-top: 24px;
+}
+
+.team-dan {
+  background: url('../img/team_dan.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.team-adam {
+  background: url('../img/team_adam.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.team-april {
+  background: url('../img/team_april.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.team-eli {
+  background: url('../img/team_eli.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.team-ryan {
+  background: url('../img/team_ryan.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .img-complete {
-  background: url('completed.png');
+  background: url('../img/completed.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
